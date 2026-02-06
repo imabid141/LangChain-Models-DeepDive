@@ -1,0 +1,42 @@
+
+# --- Virtual Environments ---
+# Ignore your specific virtual environment folder
+langchain-env/
+venv/
+env/
+.venv/
+
+# --- Secrets and Config ---
+# NEVER push your API keys to GitHub
+.env
+.env.local
+.env.*
+
+# --- Python & Cache ---
+# Ignore compiled python files and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- Hugging Face & ML Cache ---
+# Prevents uploading massive model weights if they are cached in your local dir
+.cache/
+.huggingface/
+hub/
+
+# --- Streamlit ---
+# Ignore Streamlit's internal configuration and logs
+.streamlit/
+healthcheck.txt
+
+# --- OS Specific ---
+# Ignore Linux/MacOS hidden system files
+.DS_Store
+.directory
+.nfs*
+
+.env
+langchain-env
+
